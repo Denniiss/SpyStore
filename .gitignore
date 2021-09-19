@@ -1,3 +1,6 @@
+README_Template.md
+.store/
+**/*.exe
 **/obj/
 **/bin/
 .vs/
