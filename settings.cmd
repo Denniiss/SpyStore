@@ -1,1 +1,0 @@
-DOSKEY dotnet-ef=C:\Users\tasha\source\repos\SpyStore\dotnet-ef.exe
