@@ -24,8 +24,9 @@ namespace SpyStore.Models.ViewModels
             Customer customer,
             IEnumerable<OrderDetailWithProductInfo> details)
         {
-            var viewModel =
-            _mapperCfg.CreateMapper().Map<OrderWithDetailsAndProductInfo>(order);
+            var viewModel = _mapperCfg
+                .CreateMapper()
+                .Map<OrderWithDetailsAndProductInfo>(order);
             viewModel.OrderDetails = details.ToList();
             viewModel.Customer = customer;
             return viewModel;

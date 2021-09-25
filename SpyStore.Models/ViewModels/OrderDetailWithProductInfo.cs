@@ -6,6 +6,7 @@ namespace SpyStore.Models.ViewModels
     public class OrderDetailWithProductInfo : OrderDetailBase
     {
         public new int Id { get; set; }
+
         public string Description { get; set; }
 
         [Display(Name = "Model Number")]

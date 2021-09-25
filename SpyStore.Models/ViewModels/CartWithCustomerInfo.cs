@@ -8,6 +8,6 @@ namespace SpyStore.Models.ViewModels
         public Customer Customer { get; set; }
 
         public IList<CartRecordWithProductInfo> CartRecords { get; set; }
-        = new List<CartRecordWithProductInfo>();
+            = new List<CartRecordWithProductInfo>();
     }
 }
