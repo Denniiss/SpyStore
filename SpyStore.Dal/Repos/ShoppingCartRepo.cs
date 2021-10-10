@@ -162,7 +162,7 @@ namespace SpyStore.Dal.Repos
             {
                 Context.Database.ExecuteSqlCommand("EXEC [Store].[PurchaseItemsInCart] @customerId, @orderid out", customerIdParam, orderIdParam);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return -1;
             }
